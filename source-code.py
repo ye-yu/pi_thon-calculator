@@ -24,12 +24,12 @@ pi_bellard = lambda n: (
         )
     ) 
     *
+# the expression inside the sigma notation
     (
         (Decimal(-1) ** Decimal(n))
       / (Decimal( 2) ** Decimal(Decimal(10) * Decimal(n)))
     )
     *
-# the expression inside the sigma notation
     (0
       - (
             (Decimal(2) ** Decimal(5))
